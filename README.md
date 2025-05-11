@@ -8,11 +8,19 @@
 
 ### Setup
 - Clone the repo using `git clone https://github.com/Aadhieaswar/auction-web-app.git`
-- Using a Python virtual environment recommended
-- If you have `Python` installed but not `Django` or `Pillow`:
-  - run `pip3 install django pillow`
+  cd Auction-Django-App
+- Install dependencies: pip install -r requirements.txt
+- Apply migrations and create a superuser
+  - bash:
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py createsuperuser
 - To run the website in a development server:
   - `cd` into the repo and run `python3 manage.py runserver`
+- Note: Using a Python virtual environment recommended
+- Note: If you have `Python` installed but not `Django` or `Pillow`:
+  - run `pip3 install django pillow`
+
 
 ### Additional Setup
 - To create a super user for the website simply run:
