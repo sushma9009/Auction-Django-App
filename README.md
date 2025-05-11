@@ -9,6 +9,7 @@
 ### Setup
 Step 1: Clone the repo using `git clone https://github.com/Aadhieaswar/auction-web-app.git`
           cd Auction-Django-App
+          
 Step 2: Activate Virtual Environment: 
         a. If there is no virtual environment yet: Create and activate it
         bash: python -m venv venv
@@ -38,9 +39,6 @@ Step 5: Run the App
   
   - Note: If you have `Python` installed but not `Django` or `Pillow`:
   - run `pip3 install django pillow`
-- Install dependencies:
-    - pip install django,
-    - pip install -r requirements.txt
 - Apply migrations and create a superuser
   - bash:
   - python manage.py makemigrations
