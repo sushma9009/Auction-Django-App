@@ -7,8 +7,30 @@
 - `Browser` (Preferably `Chrome`)
 
 ### Setup
-- Clone the repo using `git clone https://github.com/Aadhieaswar/auction-web-app.git`
-  cd Auction-Django-App
+Step 1: Clone the repo using `git clone https://github.com/Aadhieaswar/auction-web-app.git`
+          cd Auction-Django-App
+Step 2: Activate Virtual Environment: 
+        a. If there is no virtual environment yet: Create and activate it
+        bash: python -m venv venv
+        bash: venv\Scripts\activate
+        Note: You should see (venv) in your terminal prompt
+
+        b. If the project already includes a virtual environment - Check if a folder like venv/ or env/ exists inside the repo.
+           If yes, activate it
+        bash: venv\Scripts\activate
+        
+Step 3: Install Dependencies: 
+        Now you're inside your virtual environment, install everything required:
+        bash: pip install -r requirements.txt,
+        
+        If the repo doesn't include a requirements.txt, then do:
+        bash: pip install django pillow
+
+Step 4: Confirm Django is installed
+        To confirm Django is available
+        bash: python -m django --version
+        
+  
   - Note: If you have `Python` installed but not `Django` or `Pillow`:
   - run `pip3 install django pillow`
 - Install dependencies:
