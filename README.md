@@ -9,7 +9,9 @@
 ### Setup
 - Clone the repo using `git clone https://github.com/Aadhieaswar/auction-web-app.git`
   cd Auction-Django-App
-- Install dependencies: pip install -r requirements.txt
+- Install dependencies:
+    - pip install django,
+    - pip install -r requirements.txt
 - Apply migrations and create a superuser
   - bash:
   - python manage.py makemigrations
