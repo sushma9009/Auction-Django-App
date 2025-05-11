@@ -24,11 +24,16 @@ Step 3: Install Dependencies:
         bash: pip install -r requirements.txt,
         
         If the repo doesn't include a requirements.txt, then do:
-        bash: pip install django pillow
+        bash: pip install django pillow (If you are working in a Python 3 virtual environment) or
+        bash: pip3 install django pillow or python3 -m pip install django pillow (that ensures you're using pip associated with your Python 3 installation.
 
 Step 4: Confirm Django is installed
         To confirm Django is available
         bash: python -m django --version
+        
+Step 5: Run the App
+        Once everything is installed and virtual environment is active:
+        bash: python manage.py runserver
         
   
   - Note: If you have `Python` installed but not `Django` or `Pillow`:
