@@ -35,6 +35,10 @@ Step 4: Confirm Django is installed
 Step 5: Run the App
         Once everything is installed and virtual environment is active:
         bash: python manage.py runserver
+
+Step 6: Open http://127.0.0.1:8000 in your browser to view the app.
+
+Log in to the Django admin at http://127.0.0.1:8000/admin using the superuser you created.
         
   
   - Note: If you have `Python` installed but not `Django` or `Pillow`:
