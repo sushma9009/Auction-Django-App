@@ -9,6 +9,8 @@
 ### Setup
 - Clone the repo using `git clone https://github.com/Aadhieaswar/auction-web-app.git`
   cd Auction-Django-App
+  - Note: If you have `Python` installed but not `Django` or `Pillow`:
+  - run `pip3 install django pillow`
 - Install dependencies:
     - pip install django,
     - pip install -r requirements.txt
@@ -20,8 +22,7 @@
 - To run the website in a development server:
   - `cd` into the repo and run `python3 manage.py runserver`
 - Note: Using a Python virtual environment recommended
-- Note: If you have `Python` installed but not `Django` or `Pillow`:
-  - run `pip3 install django pillow`
+
 
 
 ### Additional Setup
